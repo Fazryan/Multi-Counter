@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bete"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bh"
+    tools:context="com.example.fpp_109.revisicounter.PopActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="64dp"
+        android:gravity="left"
+        android:hint="Tanpa Helm"
+        android:textColor="@color/hitam"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="88dp"
+        android:gravity="left"
+        android:hint="Roda 4 Di RHK"
+        android:textColor="@color/hitam"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="116dp"
+        android:gravity="left"
+        android:hint="Melanggar Stop Line"
+        android:textColor="@color/hitam"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="172dp"
+        android:gravity="left"
+        android:hint="Roda 2 Kelebihan Penumpang"
+        android:textColor="@color/hitam"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="144dp"
+        android:gravity="left"
+        android:hint="Berhenti Di Zebra Cross"
+        android:textColor="@color/hitam"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Chronometer
+        android:id="@+id/tv8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="332dp"
+        android:gravity="center"
+        android:hint="00 : 00"
+        android:textColor="@color/hitam"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+
+        android:id="@+id/tv9"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="332dp"
+        android:gravity="left"
+        android:hint="Total Waktu                      :"
+        android:textColorHint="#000"
+        android:textStyle="bold|italic"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+
+        android:id="@+id/tv10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="296dp"
+        android:gravity="left"
+        android:hint="Total Semua Pelanggar  :"
+        android:textColorHint="#000"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="228dp"
+        android:gravity="left"
+        android:hint="Pelanggaran Lainnya"
+        android:textColor="@color/hitam"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="200dp"
+        android:gravity="left"
+        android:hint="Merokok Sambil Berkendara"
+        android:textColor="@color/hitam"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:id="@+id/tutup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="39dp"
+        android:background="@drawable/bg_pop"
+        android:elevation="20dp"
+        android:text="@string/tutup"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="39dp"
+        android:background="@drawable/bg_pop"
+        android:elevation="20dp"
+        android:text="@string/share"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/total_pelanggaran_pengguna_jalan_raya"
+        android:textColor="@color/hitam"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tex2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="104dp"
+        android:layout_marginTop="296dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:hint="Total"
+        android:textColor="@color/hitam"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+
+</android.support.constraint.ConstraintLayout>

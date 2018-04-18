@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">DisiplinJalanRaya</string>
+    <string name="reset_semua">Reset Semua</string>
+
+    <string name="tambah">+</string>
+    <string name="hasil">0</string>
+    <string name="tanpa_helm">Total Count</string>
+
+
+    <string name="r4_di_rhk">RODA 4 DI RHK</string>
+    <string name="mel_line">MELANGGAR STOP LINE</string>
+    <string name="tambah1">+</string>
+    <string name="hasil1">0</string>
+
+    <string name="hasil2">0</string>
+    <string name="tambah2">+</string>
+
+    <string name="hasil3">0</string>
+    <string name="tambah3">+</string>
+    <string name="berhenti_di_ZebraCross">BERHENTI DI ZEBRA CROSS</string>
+
+    <string name="hasil4">0</string>
+    <string name="r2_kelebihan_penumpang">RODA 2 KELEBIHAN PENUMPANG</string>
+    <string name="tambah4">+</string>
+
+    <string name="tambah5">+</string>
+    <string name="merokok_di_persimpangan">MEROKO DI PERSIMPANGAN</string>
+    <string name="hasil5">0</string>
+
+    <string name="lainnya_melawan_arus_dll">PELANGGARAN LAINNYA</string>
+    <string name="hasil6">0</string>
+    <string name="tambah6">+</string>
+
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="start_sesion">Start Sesion</string>
+
+    <string name="share">share</string>
+    <string name="tutup">Tutup</string>
+    <string name="tanpa_helmm">TANPA HELM</string>
+    <string name="keluar">Keluar</string>
+    <string name="total_pelanggaran_pengguna_jalan_raya">Total Pelanggaran Pengguna Jalan Raya</string>
+    <string name="key">key</string>
+
+
+</resources>

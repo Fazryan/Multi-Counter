@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+            android:background="@drawable/bh"
+            android:id="@+id/jonjon">
+
+   <group>
+    <item
+        android:onClick="rs"
+        android:id="@+id/reset"
+        android:title="@string/reset_semua"
+        android:icon="@drawable/ic_autorenew_black_24dp"/>
+   </group>
+
+
+            <item
+                android:icon="@drawable/ic_add_circle_outline_black_24dp"
+                android:onClick="total"
+                android:title="@string/tanpa_helm"/>
+
+
+            <item
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:onClick="quit"
+                android:id="@+id/quit"
+                android:title="@string/keluar"/>
+
+        </menu>
